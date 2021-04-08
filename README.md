@@ -18,6 +18,28 @@ This digest is used to generate initial conditions for PWLCM, Lorenz system and 
 		![image](https://user-images.githubusercontent.com/50589688/114007992-72d8a000-987f-11eb-8381-13ff93d5ad03.png)
 
 		To perform the permutation these sequences are first sorted and then pixels are swapped accordingly.
+	- S-box substitution
+		In this step, we substitute the obtained permuted matrices using 16 S-boxes to enhance the nonlinearity of the proposed scheme. For S-boxes generation, we choose 		the set of all the degree 8 primitive irreducible polynomials over the field ℤ2.
+	
+	- Pixel transposition step
+		By using the multiplicative operation of a group (ℤ_2 [𝑦])/⟨ℎ_1 (𝑦)⟩ ∖{0} we generate a three random sequence and it was permuted using Chen’s hyper-chaotic 			system which is given as:
+		
+		![image](https://user-images.githubusercontent.com/50589688/114010048-589fc180-9881-11eb-88ad-d02fe376e158.png)
+		
+		Then the substituted blocks are transposed using bitwise XOR.
+- Decryption process
+	- Pixel transposition step
+		The decryption process of the proposed scheme is the same as the encryption process, but it starts from the reverse side.
+	- Inverse S-box substitution
+		We generated the inverse S-box utilize degree 8 primitive irreducible polynomials and substitute it to get only the permuted image.
+	- Inverse permutation
+		We repeat the swapping operation in permutation step in reverse manner to get the original image.
+
+
+
+
+
+
 
 
 
