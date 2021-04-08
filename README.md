@@ -4,8 +4,9 @@ A new image encryption technique
 
 Steps in our method:
 - Generate initial conditions and control parameters.
-SHA-256 generates digest of 256 bits regardless the size of the input. If there is one-bit difference between two inputs, their message digest will be completely different. So, this is used to generate digest of the color image to which encryption is to be done. 
-This digest is used to generate initial conditions for PWLCM, Lorenz system and Chen’s hyper-chaotic system.
+
+	SHA-256 generates digest of 256 bits regardless the size of the input. If there is one-bit difference between two inputs, their message digest will be completely 		different. So, this is used to generate digest of the color image to which encryption is to be done. 
+	This digest is used to generate initial conditions for PWLCM, Lorenz system and Chen’s hyper-chaotic system.
 - Encryption process
 	- Permutation step
 	
