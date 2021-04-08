@@ -47,7 +47,7 @@ This digest is used to generate initial conditions for PWLCM, Lorenz system and 
 
 
 
-
+# Results
 
 ![enc_images](https://user-images.githubusercontent.com/50589688/114006530-250f6800-987e-11eb-905c-05d375e59fc3.jpg)
 ## Above image shows input images along with their encrypted forms
