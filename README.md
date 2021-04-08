@@ -14,9 +14,10 @@ This digest is used to generate initial conditions for PWLCM, Lorenz system and 
 	![image](https://user-images.githubusercontent.com/50589688/114007785-415fd480-987f-11eb-8b6f-5baaa5682b09.png)
 		
 	Then pixels of each channels is permuted separately by using Lorenz system of equations given as;
-		![image](https://user-images.githubusercontent.com/50589688/114007992-72d8a000-987f-11eb-8381-13ff93d5ad03.png)
+	
+	![image](https://user-images.githubusercontent.com/50589688/114007992-72d8a000-987f-11eb-8381-13ff93d5ad03.png)
 
-		To perform the permutation these sequences are first sorted and then pixels are swapped accordingly.
+	To perform the permutation these sequences are first sorted and then pixels are swapped accordingly.
 
 
 
